@@ -42,7 +42,7 @@ export class LoginPage implements OnInit {
 
     // dejando la caga
 
-    if (name=="richard" && pass == "1234") {
+    if ((name=="richard" && pass == "1234") || (name=="wacoldo" && pass=="1234")) {
       console.log("pasaste");
       let navigationExtras:NavigationExtras={
         state:{
