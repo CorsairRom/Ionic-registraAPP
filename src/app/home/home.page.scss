@@ -25,3 +25,11 @@
 #container a {
   text-decoration: none;
 }
+
+.animate__animated.animate__headShake {
+  --animate-duration: 3s;
+}
+
+ion-avatar{
+  --border-radius: 1px;
+}

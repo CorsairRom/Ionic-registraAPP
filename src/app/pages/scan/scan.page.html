@@ -1,0 +1,21 @@
+<app-header titulo="Scan"></app-header>
+
+<ion-content class="ion-text-center">
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <ion-img [src]="['assets/icon/icons-qr-100.png']"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button (click)="scan()" shape="round">
+          Scan Now!
+          {{code}}
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>
